@@ -9,7 +9,7 @@ func _physics_process(delta):
 	knockback = move_and_slide(knockback)
 
 func _on_HurtBox_area_entered(area):
-	#stats.health -= 1
+	stats.health -= 1
 	print(stats.health)
 	knockback = area.knockback_vector * 120
 	
