@@ -486,7 +486,8 @@ points = PoolVector2Array( 0, 0, 32, 0, 32, 32, 0, 32 )
 [node name="World" type="Node2D"]
 
 [node name="Background" type="Sprite" parent="."]
-position = Vector2( 160, 85 )
+position = Vector2( 185, 97.5 )
+scale = Vector2( 1.15625, 1.13889 )
 texture = ExtResource( 3 )
 region_enabled = true
 region_rect = Rect2( 0, -16, 320, 180 )
@@ -561,6 +562,9 @@ position = Vector2( 72, 152 )
 position = Vector2( 232, 56 )
 
 [node name="Bat4" parent="YSort/Bats" instance=ExtResource( 7 )]
-position = Vector2( 182, 135 )
+position = Vector2( 181, 145 )
+
+[node name="Bat5" parent="YSort/Bats" instance=ExtResource( 7 )]
+position = Vector2( 248, 120 )
 
 [node name="HealthUI" parent="." instance=ExtResource( 8 )]
