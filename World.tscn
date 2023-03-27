@@ -562,9 +562,12 @@ position = Vector2( 72, 152 )
 position = Vector2( 232, 56 )
 
 [node name="Bat4" parent="YSort/Bats" instance=ExtResource( 7 )]
-position = Vector2( 181, 145 )
+position = Vector2( 174, 132 )
 
 [node name="Bat5" parent="YSort/Bats" instance=ExtResource( 7 )]
-position = Vector2( 248, 120 )
+position = Vector2( 258, 126 )
+
+[node name="Bat6" parent="YSort/Bats" instance=ExtResource( 7 )]
+position = Vector2( 120, 115 )
 
 [node name="HealthUI" parent="." instance=ExtResource( 8 )]
